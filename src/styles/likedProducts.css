@@ -1,0 +1,98 @@
+/* Updated LikedProducts.css */
+
+.liked-recipes-container {
+  max-width: 900px; /* Increased max-width */
+  margin: 0 auto;
+  padding: 30px; /* Increased padding */
+  background-color: #f9f9f9;
+  border-radius: 15px; /* Increased border-radius */
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3); /* Increased box-shadow */
+  margin-top: 10rem; /* Adjusted margin-top */
+}
+
+.liked-recipes-container h2 {
+  font-size: 28px; /* Increased font size */
+  margin-bottom: 25px; /* Increased margin-bottom */
+  color: #333; /* Changed text color */
+}
+
+.liked-recipes-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.liked-recipes-container .list {
+  margin-bottom: 40px; /* Increased margin-bottom */
+  background-color: #fff;
+  padding: 25px; /* Increased padding */
+  border: 2px solid #ddd; /* Adjusted border */
+  border-radius: 8px; /* Increased border-radius */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adjusted box-shadow */
+}
+
+.liked-recipes-container h3 {
+  font-size: 22px; /* Decreased font size */
+  margin-bottom: 15px; /* Decreased margin-bottom */
+  color: #333;
+}
+
+.liked-recipes-container p {
+  font-size: 18px; /* Increased font size */
+  color: #777;
+  margin-bottom: 15px; /* Increased margin-bottom */
+}
+
+.liked-recipes-container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px; /* Increased margin-top */
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Adjusted box-shadow */
+}
+
+.liked-recipes-container h4 {
+  font-size: 20px; /* Increased font size */
+  margin-top: 30px; /* Increased margin-top */
+}
+
+.liked-recipes-container ul.liked-product-ingredients {
+  list-style-type: disc;
+  margin-left: 30px; /* Increased margin-left */
+}
+
+.liked-recipes-container ul.liked-product-ingredients li {
+  font-size: 18px; /* Increased font size */
+}
+
+.liked-recipes-container ol.liked-product-instructions {
+  list-style-type: decimal;
+  margin-left: 30px; /* Increased margin-left */
+}
+
+.liked-recipes-container ol.liked-product-instructions li {
+  font-size: 18px; /* Increased font size */
+}
+
+/* Updated RecipeStyle.css */
+
+/* Add styles for the remove item button */
+.remove-item-button {
+  background-color: #ff5c5c; /* Red background color */
+  color: white; /* White text color */
+  border: none;
+  padding: 12px 24px; /* Adjusted padding */
+  margin-right: 15px; /* Increased margin-right */
+  cursor: pointer;
+  border-radius: 8px; /* Increased border-radius */
+  font-size: 18px; /* Increased font size */
+  transition: background-color 0.3s ease;
+
+  /* Hover effect */
+  &:hover {
+      background-color: #ff0000; /* Darker red on hover */
+  }
+}
+
+.instructions-list li {
+  margin-bottom: 10px; /* Adjusted the value for spacing */
+}

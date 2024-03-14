@@ -1,0 +1,22 @@
+/* Updated styles for search bar */
+.search-bar {
+  margin-bottom: 20px;
+  height: 50px;
+  margin-top: 2rem;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px; /* Increased padding for better visual appearance */
+  height: 100%;
+  font-size: 18px; /* Increased font size for better readability */
+  border: 2px solid #ccc; /* Increased border thickness */
+  border-radius: 8px; /* Increased border-radius for a rounded look */
+  outline: none;
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+/* Optional: Add a subtle box shadow for a raised effect */
+.search-bar input:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

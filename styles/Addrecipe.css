@@ -1,0 +1,84 @@
+/* Updated AddRecipe.css */
+
+.add-recipe {
+  max-width: 800px; /* Increased the max-width */
+  margin: 0 auto;
+  padding: 30px; /* Increased padding */
+  border: 2px solid #555; /* Changed border color */
+  border-radius: 8px; /* Increased border-radius */
+  background-color: #f8f8f8; /* Changed background color */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Increased box-shadow */
+  margin-top: 5rem; /* Adjusted margin-top */
+}
+
+.add-recipe h2 {
+  font-size: 28px; /* Increased font size */
+  margin-bottom: 30px; /* Increased margin-bottom */
+  color: #444; /* Changed text color */
+}
+
+.add-recipe form {
+  display: grid; /* Changed to grid layout */
+  grid-gap: 15px; /* Added grid gap */
+}
+
+.add-recipe label {
+  font-weight: normal; /* Changed font-weight */
+  margin-bottom: 8px; /* Adjusted margin-bottom */
+  color: #555; /* Changed text color */
+}
+
+.add-recipe input[type="text"],
+.add-recipe textarea {
+  padding: 12px; /* Increased padding */
+  margin-bottom: 20px; /* Increased margin-bottom */
+  border: 2px solid #777; /* Changed border color */
+  border-radius: 5px; /* Adjusted border-radius */
+  font-size: 18px; /* Increased font size */
+}
+
+.add-recipe button[type="submit"],
+.add-recipe button[type="button"] {
+  background-color: #4caf50; /* Changed button color */
+  color: #fff;
+  padding: 12px 24px; /* Adjusted padding */
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-recipe button[type="button"] {
+  background-color: #ffc107; /* Changed secondary button color */
+}
+
+.add-recipe button[type="submit"]:hover,
+.add-recipe button[type="button"]:hover {
+  background-color: #45a049; /* Changed hover color */
+}
+
+/* Additional styling for ingredient inputs */
+.add-recipe .ingredient-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-recipe .ingredient-inputs input[type="text"] {
+  width: 80%; /* Adjusted width */
+  margin-bottom: 12px; /* Increased margin-bottom */
+}
+
+.add-recipe .ingredient-inputs button {
+  align-self: center; /* Centered button */
+  background-color: #2196f3; /* Changed ingredient button color */
+}
+
+.add-recipe .ingredient-inputs button:hover {
+  background-color: #0b7dda; /* Changed hover color for ingredient button */
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .add-recipe {
+      margin-top: 4rem; /* Adjusted margin-top for smaller screens */
+  }
+}
